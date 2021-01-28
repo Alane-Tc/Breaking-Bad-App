@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png"/>
+  <link rel="stylesheet" href="CSS/index.css">
+
+  <title>Breaking Bad App</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/heisenberg.svg" alt="breaking-Bad" width="30" height="24" class="d-inline-block align-top">
+          Breaking Bad App
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="#">Personaje Random</a>
+            <a class="nav-link" href="#">Frase Random</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Header-->
+
+  <!--Contenido-->
+  <div class="container">
+    <div class="MT20"></div>
+    <h1 class="text-center">Breaking Bad App</h1>
+    <div class="Mb20"></div>
+    <!--Cards-->
+    <div class="grid-container">
+      <!--Card1-->
+      <div class="grid-item" id="character1">
+        <div id="div-Img-characters-1">
+          <img src="#" alt="Walter White" id="img-characters-1">
+        </div>
+        <h2 id="h1"></h2>
+        <button type="button" class="btn btn-warning">Más Info</button>
+        <span class="load">CARGANDO DATOS....</span>
+      </div>
+      <!--Card2-->
+      <div class="grid-item" id="character2">
+        <div id="div-Img-characters-2">
+          <img src="#" alt="Jesse Pinkman" id="img-characters-2">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card3-->
+      <div class="grid-item" id="character3">
+        <div id="div-Img-characters-3">
+          <img src="#" alt="Skyler White" id="img-characters-3">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card4-->
+      <div class="grid-item" id="character4">
+        <div id="div-Img-characters-4">
+          <img src="#" alt="Walter White Jr" id="img-characters-4">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card5-->
+      <div class="grid-item" id="character5">
+        <div id="div-Img-characters-5">
+          <img src="#" alt="Henry Schrader" id="img-characters-5">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card6-->
+      <div class="grid-item" id="character6">
+        <div id="div-Img-characters-6">
+          <img src="#" alt="Marie Schrader" id="img-characters-6">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card7-->
+      <div class="grid-item" id="character7">
+        <div id="div-Img-characters-7">
+          <img src="#" alt="Mike Ehrmantraut" id="img-characters-7">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card8-->
+      <div class="grid-item" id="character8">
+        <div id="div-Img-characters-8">
+          <img src="#" alt="Saul Goodman" id="img-characters-8">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+      <!--Card9-->
+      <div class="grid-item" id="character9">
+        <div id="div-Img-characters-9">
+          <img src="#" alt="Gustavo Fring" id="img-characters-9">
+        </div>
+        <button type="button" class="btn btn-warning">Más Info</button>
+      </div>
+    </div>
+    <!--Cards-->
+    <div class="Mb20"></div>
+    <!--Pagination-->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Pagination-->
+  </div>
+  <!--Contenido-->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!----<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+              class="fas fa-chevron-up"></i></a---->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="index.html">Breaking Bad App</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="Js/characters.js"></script>
+
+</body>
+
+</html>
