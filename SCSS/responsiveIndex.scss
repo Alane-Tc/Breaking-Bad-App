@@ -17,7 +17,11 @@
         display: inherit;
 
         .grid-item{
-            @include marginBottom(15px)
+            @include marginBottom(15px);
+            img{
+                width: 200px;
+                height: 200px;
+            }
         }
        
     }
@@ -52,12 +56,25 @@
     
  }
 
-/*@media (min-width: 992px) and (max-width: 1199.98px) { 
-    body{background: blue;}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*body{background: blue;}*/
+
+    .grid-container {
+        display: grid;
+
+        .grid-item{
+            @include marginBottom(15px);
+            img{
+                width: 250px;
+                height: 250px; 
+            }
+        }
+    
+    }
        
  }
 
-@media (min-width: 1200px) { 
+/*@media (min-width: 1200px) { 
     body{background: blueviolet;}
 
  }*/
