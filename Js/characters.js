@@ -36,8 +36,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-1")
                 imgC.src = character[0].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter1.appendChild(imgC);
                 let h1 = document.querySelector('#h1');
                 h1.innerHTML = `${character[0].name}`
@@ -52,8 +52,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-2")
                 imgC.src = character[1].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter2.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[1].name}`
@@ -67,8 +67,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-3")
                 imgC.src = character[2].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter3.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[2].name}`
@@ -82,8 +82,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-4")
                 imgC.src = character[3].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter4.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[3].name}`
@@ -97,8 +97,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-5")
                 imgC.src = character[4].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter5.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[4].name}`
@@ -112,8 +112,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-6")
                 imgC.src = character[5].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter6.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[5].name}`
@@ -127,8 +127,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-7")
                 imgC.src = character[6].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter7.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[6].name}`
@@ -142,8 +142,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-8")
                 imgC.src = character[7].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter8.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[7].name}`
@@ -157,8 +157,8 @@ window.addEventListener("load", function () {
             .then(character => {
                 let imgC = document.querySelector("#img-characters-9")
                 imgC.src = character[8].img;
-                imgC.width = "200"
-                imgC.height = "200"
+                imgC.width = "300"
+                imgC.height = "300"
                 divCharacter9.appendChild(imgC);
                 let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[8].name}`
