@@ -24,11 +24,10 @@ body{
     background: $fondoPagina;
 }
 
-
 /*Contenido*/
 .grid-container {
     display: grid;
-    grid-gap: 50px 25px;
+    grid-gap: 25px 25px;
     grid-template-columns: auto auto auto;
     padding: 10px;
   }
@@ -41,4 +40,7 @@ body{
     text-align: center;
     //border-radius: 8px;
     //box-shadow: 5px 5px 5px black;
+        h2{
+            @include marginTop(25px);
+        }
   }
