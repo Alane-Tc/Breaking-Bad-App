@@ -1,0 +1,37 @@
+$fondoPagina: #e9ecef;
+$fondoDiv: #a9d6e5;
+
+@mixin marginTop ($size) {
+    margin-top: $size;
+}
+
+@mixin marginBottom ($size) {
+    margin-bottom: $size;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+/*Espacios*/
+.MT20{
+    @include marginBottom(20px); //espacio arriba
+}
+.Mb20{
+    @include marginTop(20px); //espacio abajo 
+}
+
+body{
+    background: $fondoPagina;
+}
+
+/*Content*/
+#div-main{
+    width: 1200px;
+    height: auto;
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }

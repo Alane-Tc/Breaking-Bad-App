@@ -1,0 +1,26 @@
+/*Espacios*/
+.MT20 {
+  margin-bottom: 20px;
+}
+
+.Mb20 {
+  margin-top: 20px;
+}
+
+body {
+  background: #e9ecef;
+}
+
+/*Content*/
+#div-main {
+  width: 1200px;
+  height: auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=randomcharacter.css.map */
