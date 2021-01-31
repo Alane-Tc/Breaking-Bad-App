@@ -24,6 +24,6 @@ window.addEventListener("load", function () {
             span();
         })
     let span = () => { document.querySelector(".load").style.display = "none"; }
-    let backWindow = () => { window.location = "../index.html" }
+    let backWindow = () => { window.location = "../page2.html" }
     btnBack.addEventListener("click", function () { backWindow(); })
 })
