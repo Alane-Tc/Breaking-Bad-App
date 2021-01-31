@@ -7,9 +7,7 @@ window.addEventListener("load", function () {
     link()
         .then(data => data.json())
         .then(quote => {
-            p.innerHTML = `<b>Frase</b>: ${quote[0].quote} <br/> <b>Autor</b>: ${quote[0].author}`
-            divquoter.appendChild(p);
-            span();
+            console.log(`run ${random()}`)
         })
 
     let random = () => {
