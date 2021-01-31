@@ -22,7 +22,6 @@ window.addEventListener("load", function () {
                 <br/> <b>Temporadas</b>: ${character1[4].appearance} <br/> <b>Actor</b>: ${character1[4].portrayed}`
             divId.appendChild(p)
             span();
-            console.log(character1)
         })
     let span = () => { document.querySelector(".load").style.display = "none"; }
     let backWindow = () => { window.location = "../index.html" }
