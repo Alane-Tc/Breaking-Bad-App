@@ -26,5 +26,4 @@ const showCharacter = (NumberCharacter) => {
 }
 
 let span = () => { document.querySelector(".load").style.display = "none"; }
-let backWindow = () => { window.location = "../index.html" }
-btnBack.addEventListener("click", function () { backWindow(); })
+let backWindow = (href) => { window.location = href }
