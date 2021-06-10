@@ -26,5 +26,13 @@ body {
 .grid-item h2 {
   margin-top: 25px;
 }
+.grid-item img {
+  padding: 3px;
+  background-color: white;
+  border: 1px solid #cccc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px black;
+  z-index: -10000;
+}
 
 /*# sourceMappingURL=index.css.map */
