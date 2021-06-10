@@ -24,7 +24,6 @@ window.addEventListener("load", function () {
         .then(json => {
             console.log(character55(), character56(), character57(), character58(), character59(),
                 character60(), character61(), character62(), character63()) 
-                console.log(json)
         });
 
     let span = () => { document.querySelector(".load").style.display = "none"; }
@@ -155,13 +154,13 @@ window.addEventListener("load", function () {
             .then(data => data.json())
             .then(character => {
                 let imgC = document.querySelector("#img-characters-9")
-                imgC.src = character[62].img;
+                imgC.src = character[38].img;
                 imgC.width = "300"
                 imgC.height = "300"
                 divCharacter9.appendChild(imgC);
-                let h1 = document.createElement('h2');
+                /*let h1 = document.createElement('h2');
                 h1.innerHTML = `${character[62].name}`
-                divCard9.appendChild(h1)
+                divCard9.appendChild(h1)*/
             })
     }
 
