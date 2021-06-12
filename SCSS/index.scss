@@ -30,6 +30,10 @@ body{
     //grid-gap: 25px 25px;
     grid-template-columns: auto auto auto;
     padding: 10px;
+
+    button{
+        margin-top: 20px;
+    }
   }
   
   .grid-item {
