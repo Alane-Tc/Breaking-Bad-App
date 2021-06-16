@@ -5,7 +5,7 @@
 
 ------------
 ## 📝Descripción
-Aplicación realizada con la API de BreakingBad, donde muestra a todos los personajes de la serie breaking bad con su respectiva información [Click Aqui](# "Click Aqui")
+Aplicación realizada con la API de BreakingBad, donde muestra a todos los personajes de la serie breaking bad con su respectiva información [Click Aqui](https://breakingbadaplication.netlify.app/ "Click Aqui")
 
 ![](https://github.com/Alane-Tc/Breaking-Bad-App/blob/main/img/ss/api.jpeg?raw=true)
 
