@@ -26,13 +26,6 @@ Aplicación realizada con la api de BreakingBad [Click Aqui](# "Click Aqui")
 
 </details>
 
-<details>
-    <summary>💻 Desktop version</summary>
-    
-![](https://github.com/Alane-Tc/Breaking-Bad-App/blob/main/img/ss/index.jpeg?raw=true)
-
-</details>
-
 </details>
 
 ------------
