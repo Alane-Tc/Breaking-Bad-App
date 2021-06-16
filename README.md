@@ -26,13 +26,6 @@ Aplicación realizada con la api de BreakingBad, donde muestra a todos los perso
 
 </details>
 
-<details>
-    <summary>💻 Desktop version</summary>
-    
-![](https://github.com/Alane-Tc/Breaking-Bad-App/blob/main/img/ss/index.jpeg?raw=true)
-
-</details>
-
 </details>
 
 ------------
