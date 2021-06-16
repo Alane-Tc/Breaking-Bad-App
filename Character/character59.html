@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../img/favicon-32x32.png" />
+    <link rel="stylesheet" href="../CSS/characters.css">
+    <link rel="stylesheet" href="../CSS/responsiveCharacters.css">
+    <title>Breaking Bad App</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/heisenberg.svg" alt="breaking-Bad" width="30" height="24"
+                        class="d-inline-block align-top">
+                    Breaking Bad App
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" href="../randomcharacter.html">Personaje Random</a>
+                        <a class="nav-link" href="../quoterandom.html">Frase Random</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header-->
+
+    <!--Contenido-->
+    <div class="container">
+        <div class="MT20"></div>
+        <h1 class="text-center">Breaking Bad App</h1>
+        <div class="Mb20"></div>
+        <div id="div-main">
+            <div class="grid-item">
+                <span class="load">CARGANDO DATOS....</span>
+                <div id="div-title"></div>
+                <div id="img-div"></div>
+                <div id="id-char"></div>
+                <!--Button-->
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-warning btn-lg" id="bnt-back" type="button">Atrás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contenido-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <!----<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+              class="fas fa-chevron-up"></i></a---->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a class="link-secondary" href="../index.html">Breaking Bad App</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="../Js/character.js"></script>
+    <script>
+        showCharacter(58)
+        btnBack.addEventListener("click", function () { backWindow("../page7.html"); })
+    </script>
+</body>
+
+</html>
